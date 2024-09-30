@@ -1,0 +1,141 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #4a8bad;
+    color: #fff;
+    background-image: url(https://www.shutterstock.com/image-photo/reflection-tree-260nw-523522702.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.a{
+    text-decoration: none;
+    color: orange;
+}
+.h1{
+margin: 0;
+}
+.h2{
+margin: 0;
+}
+.p{
+    margin: 20px;
+}
+#header{
+    display: flex;
+    justify-content: 
+space-between;
+    align-items: last baseline;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+.search-bar{
+    margin-left: auto;
+    margin-right: 0;
+    text-align: left;
+}
+.nav ul li a{
+color: white;
+font-size: 16px;
+}
+
+.search-bar{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    margin: left;
+}
+.searh-bar input{
+padding: 5px;
+font-size: 14px;
+}
+.searh-bar button{
+    padding: 5px 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    justify-content: 
+    space-between;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+
+}
+.course-info{
+    max-width: 70px;
+    text-indent: 0;
+margin: right;
+height: calc(100vh - 100px);
+
+}
+.course-info p {
+    font-size: 18px;;
+    color: #ddd;
+    line-height: 1.5;
+}
+.course-info h1 {
+max-width: 48px;
+color: orange;
+}
+.join-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: orange;
+    color: #111;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.join-btn:hover{
+    background-color: #fff;
+    color: #111;
+}
+.login-form{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.login-form h2{
+font-size: 24px;
+margin-bottom: 20px;
+}
+.login-form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 5px;
+}
+.login-form button:hover {
+    background-color: #fff;
+    color: #111;
+}
+.social-login{
+    margin-top: 20px;
+    text-align: center;
+}
+.social-login a {
+    margin: 0 5px;
+}
+.social-login a img {
+width: 24px;
+height: 24px;
+}
+.social-login p {
+margin-bottom: 10px;
+}
